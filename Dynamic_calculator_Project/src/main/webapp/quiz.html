@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<style>
+table , th , td
+{
+border:3px solid black;
+border-collapse:collapse;
+border-color:red;
+}
+</style>
+<head>
+<meta charset="ISO-8859-1">
+<title>Normal Calculator</title>
+</head>
+<body >
+	
+	<h1 style="text-align:center ; color:red;"> Welcome to Calculator</h1>
+	<form action="calculator">
+	<table style="margin-left:auto ; margin-right:auto ; text-align:center; "width=40%"; border="10">
+	<tr >
+	<th style="width:50%"; colspan="2"><h3>Enter First Number:</h3>
+	<input type="text" name="first"></th>
+	
+	<th style="width:50%"; colspan="2"><h3>Enter Second Number:</h3>
+	<input type="text" name="last"></th>
+	</tr>
+	
+	<tr>
+	<td colspan="5">
+	<h2 style="color:blue; text-align:center">Select an operator:</h2>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	Addition:<input type="radio" name="opr" value="+"></td>
+	<td>Substraction:<input type="radio" name="opr" value="-"></td>
+	<td>Multipcation:<input type="radio" name="opr" value="*"></td>
+	<td>Divide:<input type="radio" name="opr" value="/">
+	
+	
+	
+	</td>
+	</tr>
+	<tr>
+	<td colspan="4">
+	<input type="submit" value="Calculate" style="color:blue">
+	</td>
+	</tr>
+	</table>
+	</form>
+	 
+</body>
+</html>
