@@ -1,2 +1,2 @@
-https://github.com/Biswajit9439/Dynamic-calculator.git
+https://biswajit9439.github.io/Dynamic-calculator/
 
